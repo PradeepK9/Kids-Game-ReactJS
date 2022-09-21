@@ -92,16 +92,17 @@ const MosquitoKillerMobile = () => {
                 {gameOver &&
                     <div className='GameOver'>
                         <h1>Game Over !</h1>
+                        <h2>You Scored : {hitCount}</h2>
                         <h2>Try Again</h2>
                     </div>
                 }
                 {!isStarted && !gameOver &&
                     <div className='HowToSection'>
-                        <p>How to play?</p>
-                        <p>Click the start button</p>
-                        <p>Touch the mosquito to kill it</p>
-                        <p>You have only 30 seconds at a time</p>
-                        <p>If you want you can change difficulty level : Easy, Medium or Hard</p>
+                        <p>How to play ?</p>
+                        <p>Click the Start Game button.</p>
+                        <p>And start tapping on mosquito to kill.</p>
+                        <p>You will have only 30 seconds at a time.</p>
+                        <p>If you want you can change difficulty level : easy, medium or hard</p>
                     </div>
                 }
             </div>

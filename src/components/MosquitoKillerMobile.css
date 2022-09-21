@@ -10,14 +10,14 @@
     text-align: center;
 }
 
-.MosquitoKillerMobile h2 {
+.MosquitoKillerMobile span>h2 {
     display: inline;
 }
 
 .level {
     display: inline;
     margin-left: 1.5rem;
-    background-color: rgb(174, 174, 224);
+    /* background-color: rgb(174, 174, 224); */
 }
 
 .level select {
@@ -61,10 +61,6 @@
     background-color: rgb(189, 162, 214);
     border-radius: 5px;
     box-shadow: 0px 1px 10px 3px #677275;
-}
-
-.HowToSection p {
-    margin: 0.8rem;
 }
 
 .HowToSection p:first-child {
