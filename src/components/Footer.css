@@ -1,0 +1,26 @@
+.Footer {
+    display: flex;
+    background-color: rgb(53 10 192);
+    justify-content: space-around;
+    font-weight: 500;
+    color: rgb(225, 218, 226);
+}
+
+@media screen and (max-width : 768px) {
+    .Footer {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .Footer p {
+        margin: 0.3rem;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .Footer .Owner::before {
+        content: "\a";
+        white-space: pre;
+    }
+}

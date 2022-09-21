@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ## 😊 Click the below link and enjoy the game 😊
 
-Click here 👉🏻 [https://kids-game-by-pradeep.netlify.app/](https://kids-game-by-pradeep)
+Click here 👉🏻 [https://kids-game-by-pradeep](https://kids-game-by-pradeep.netlify.app)
 
 ### `npm start`
 

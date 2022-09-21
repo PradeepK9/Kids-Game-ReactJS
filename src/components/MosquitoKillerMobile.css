@@ -1,0 +1,99 @@
+.MosquitoKillerMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.MosquitoKillerMobile span {
+    margin: 1rem;
+    text-align: center;
+}
+
+.MosquitoKillerMobile h2 {
+    display: inline;
+}
+
+.level {
+    display: inline;
+    margin-left: 1.5rem;
+    background-color: rgb(174, 174, 224);
+}
+
+.level select {
+    width: 80px;
+    padding: 5px;
+    font-size: 13px;
+    line-height: 1;
+    /* border: 0; */
+    border-radius: 5px;
+    height: 30px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    /* -webkit-appearance: none; */
+    background-position-x: 244px;
+}
+
+.MobilePlayground {
+    background-color: rgb(22 224 70);
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+.MobilePlayground .GameOver {
+    /* font-size: 3rem; */
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(255 250 250);
+}
+
+.MobilePlayground img {
+    position: relative;
+    width: 50px;
+    margin: 10px;
+}
+
+.HowToSection {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: 500;
+    background-color: rgb(189, 162, 214);
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px 3px #677275;
+}
+
+.HowToSection p {
+    margin: 0.8rem;
+}
+
+.HowToSection p:first-child {
+    font-weight: 700;
+}
+
+.ScoreSectionMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ScoreSectionMobile p {
+    margin-top: 0;
+}
+
+.ScoreSectionMobile p:first-child {
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
+.MosquitoKillerMobile button {
+    background-color: rgb(189 2 92);
+    font-size: 16px;
+    padding: 1rem;
+    color: rgb(252, 252, 252);
+    font-weight: 700;
+    margin: 1.3rem;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 1px 4px 2px #677275;
+}
