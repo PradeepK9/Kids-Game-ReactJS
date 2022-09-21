@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## 😊 Click the below link and enjoy the game 😊
+
+Click here 👉🏻 [https://kids-game-by-pradeep.netlify.app/](https://kids-game-by-pradeep)
+
 ### `npm start`
 
 Runs the app in the development mode.\
