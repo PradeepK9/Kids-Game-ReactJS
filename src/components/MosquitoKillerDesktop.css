@@ -12,11 +12,33 @@
     position: relative;
 }
 
-.Playground h1 {
-    font-size: 3.5rem;
+
+.HowToSectionDesk {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: 500;
+    background-color: rgb(189, 162, 214);
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px 3px #677275;
+}
+
+.HowToSectionDesk p:first-child {
+    font-weight: 700;
+}
+
+.Playground .GameOverDesktop {
     color: red;
     text-align: center;
-    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(255 250 250);
+}
+
+.Playground .GameOverDesktop>h1 {
+    font-size: 3rem;
+}
+
+.Playground .GameOverDesktop>h2 {
+    font-size: 2rem;
 }
 
 .Playground img {
@@ -28,6 +50,19 @@
 .ScoreSection {
     margin-left: 3rem;
     text-align: center;
+}
+
+.Desktoplevel select {
+    width: 80px;
+    padding: 5px;
+    font-size: 13px;
+    line-height: 1;
+    /* border: 0; */
+    border-radius: 5px;
+    height: 30px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    /* -webkit-appearance: none; */
+    background-position-x: 244px;
 }
 
 .ScoreSection button {
