@@ -109,7 +109,7 @@ const MosquitoKillerDesktop = () => {
                 <div className='Desktoplevel'>
                     <select value={value} onChange={handleChange}>
                         <option value="1600">Easy</option>
-                        <option value="1000">Mediam</option>
+                        <option value="1000">Medium</option>
                         <option value="500">Hard</option>
                     </select>
                 </div>

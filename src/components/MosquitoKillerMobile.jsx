@@ -76,7 +76,7 @@ const MosquitoKillerMobile = () => {
                 <div className='level'>
                     <select value={value} onChange={handleChange}>
                         <option value="1000">Easy</option>
-                        <option value="500">Mediam</option>
+                        <option value="500">Medium</option>
                         <option value="360">Hard</option>
                     </select>
                 </div>
